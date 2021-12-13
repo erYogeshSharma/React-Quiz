@@ -1,0 +1,127 @@
+.question{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    background-color: whitesmoke;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.navigate{
+    font-size: 1rem;
+    border: 2px black solid;
+    margin:  20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.submit{
+     font-size: 1rem;
+    border: 2px green solid;
+   margin: 0%;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.answer-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+}
+
+.question #options{
+    
+        width: 100%;
+        font-size: 16px;
+        color: #ffffff;
+        
+        border-radius: 8px;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 15px;
+        cursor: pointer;
+        
+      
+}
+.question #options:hover{
+    background-color: #321c69;
+}
+.question .neutral{
+    background-color: #201244;
+}
+.question .right{
+    background-color: green;
+}
+.question .wrong{
+    background-color: red;
+
+}
+
+
+.question-text{
+    font-size: 2rem; 
+    margin: 20px 0;
+    color: rgb(26, 26, 26);
+}
+.question p{
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+    
+
+}
+.question h2{
+    margin: 0%;
+    font-size: 50px;
+    color: #210024;
+    font-weight:normal ;
+}
+.nav-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+@media (max-width:400px){
+    .question{
+        padding: 20px;
+        width: 250px;
+    }
+    .question-text{
+        font-size: 1.3rem;
+    }
+    .question h2 {
+        font-size: 40px;
+    }
+    .question p{
+        margin-top: 8px;
+        font-size: 15px;
+    }
+    .question-component{
+        border: black solid 2px;
+        padding:4px;
+        
+    }
+    .navigate{
+        font-size: 10px;
+    }
+   .question #options{
+       font-size: 14px;
+       padding: 10px;
+       margin: 5px;
+   }
+
+}
+
