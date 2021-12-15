@@ -54,9 +54,10 @@
         
       
 }
-.question #options:hover{
-    background-color: #321c69;
-}
+ 
+@media (hover: hover) and (pointer: fine) {
+    #option:hover { color: #391b85; }
+  }
 .question .neutral{
     background-color: #201244;
 }

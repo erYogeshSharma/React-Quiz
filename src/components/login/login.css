@@ -11,17 +11,20 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  width: 400px;
+  width: 300px;
   background-color: whitesmoke;
   align-items: center;
-  padding: 40px;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .login-form h1{
     text-align: center;
-    padding-bottom: 50px;
-    color: #201244;
+    font-weight: bold;
+    font-size: 3remS;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #0e0e0e;
 }
 
 .input{
@@ -31,7 +34,7 @@ body{
   display: inline-block;
   border: 1px solid rgb(121, 120, 120);
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .login-button{
     background-color: #4CAF50;
@@ -50,7 +53,7 @@ body{
 }
 @media  (max-width: 400px) {
     .login-form {
-      width: 200px;
+      width: 240px;
     }
     .login-form h1{
         margin: 0;
